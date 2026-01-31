@@ -1,0 +1,34 @@
+# Node
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Build artifacts
+dist/
+build/
+client/build/
+
+# Uploads / data
+server/uploads/
+
+# OS / Editor
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage
+coverage/
+
+# Misc
+*.tgz
+*.env.test
